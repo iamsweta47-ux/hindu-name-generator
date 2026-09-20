@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Couple Name Generator — Blend Two Names into a Ship Name</title>
+<meta name="description" content="Combine two names into a romantic couple name. Get 8–12 blended name ideas, a ship name, matching initials with a heart, and cute nicknames — perfect for weddings and hashtags.">
+<meta name="keywords" content="couple name generator, ship name generator, blend two names, couple name combiner, relationship name generator, wedding hashtag name">
+<link rel="canonical" href="https://hindunamegenerator.netlify.app/couple-names.html">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Couple Name Generator — Blend Two Names">
+<meta property="og:description" content="Enter two names and get a blended ship name, matching initials, and cute nicknames instantly.">
+<meta property="og:url" content="https://hindunamegenerator.netlify.app/couple-names.html">
+<meta property="og:site_name" content="Hindu Name Generator">
+<meta name="twitter:card" content="summary">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕉️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://hindunamegenerator.netlify.app/" },
+    { "@type": "ListItem", "position": 2, "name": "Couple Names", "item": "https://hindunamegenerator.netlify.app/couple-names.html" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">🕉️ <span>Hindu Name<em>Generator</em></span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="boy-names.html">Boy Names</a>
+      <a href="girl-names.html">Girl Names</a>
+      <a href="couple-names.html">Couple Names</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="hero-eyebrow-icon">💞</span>
+    <h1>Couple Name Combiner</h1>
+    <p>Enter two names to blend them into a ship name, matching initials with a heart, and a handful of cute nicknames — great for weddings, anniversaries, or wedding hashtags.</p>
+  </div>
+</div>
+
+<div class="ad-slot ad-slot-leaderboard" aria-label="Advertisement">
+  <div><span class="ad-label">Advertisement</span></div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="tab-panel-inner" style="max-width:760px;margin:0 auto;">
+      <form id="coupleForm">
+        <div class="couple-form">
+          <div class="field">
+            <label for="nameA">First name</label>
+            <input type="text" id="nameA" placeholder="e.g. Arjun" maxlength="20" required>
+          </div>
+          <div class="couple-heart">❤</div>
+          <div class="field">
+            <label for="nameB">Second name</label>
+            <input type="text" id="nameB" placeholder="e.g. Kavya" maxlength="20" required>
+          </div>
+        </div>
+        <div class="text-center mt-lg">
+          <button type="submit" class="btn btn-primary">Combine Names</button>
+        </div>
+      </form>
+
+      <div class="results-block" id="coupleResults" style="display:none;">
+        <div class="ship-name-display" id="shipNameDisplay">
+          <div class="label">YOUR SHIP NAME</div>
+          <div class="value" id="shipNameValue"></div>
+          <div class="initials" id="initialsValue"></div>
+        </div>
+
+        <h3>Blended Name Ideas</h3>
+        <div class="name-grid" id="blendGrid"></div>
+
+        <h3 class="mt-lg">Cute Nicknames</h3>
+        <div class="pill-list" id="nicknameList"></div>
+
+        <div class="text-center mt-lg">
+          <button type="button" class="btn btn-gold" id="copyCoupleAll">📋 Copy All Results</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="ad-slot" aria-label="Advertisement">
+  <div><span class="ad-label">Advertisement</span></div>
+</div>
+
+<section class="section section-alt">
+  <div class="container prose">
+    <h2>How the couple name combiner works</h2>
+    <p>Our tool splits each name into parts and recombines them in multiple ways to create fresh, pronounceable blends. You'll get a headline "ship name," your initials joined with a heart, a set of 8–12 blended name ideas, and a few playful nicknames drawn from common Hindi terms of endearment.</p>
+    <h2>Fun ways to use your couple name</h2>
+    <ul>
+      <li>As a wedding hashtag for guests to use when sharing photos.</li>
+      <li>As a couple's Instagram or joint social handle.</li>
+      <li>Printed on invitations, favors, or a welcome sign.</li>
+      <li>Just for fun, to see how your names blend together!</li>
+    </ul>
+  </div>
+</section>
+
+<div class="ad-slot" aria-label="Advertisement">
+  <div><span class="ad-label">Advertisement</span></div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p class="logo">🕉️ Hindu Name Generator</p>
+      <p>Discover beautiful, meaningful Hindu names rooted in Sanskrit tradition — for babies and couples alike.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Explore</h4>
+      <a href="index.html">Home</a>
+      <a href="boy-names.html">Boy Names</a>
+      <a href="girl-names.html">Girl Names</a>
+      <a href="couple-names.html">Couple Names</a>
+    </div>
+    <div class="footer-links">
+      <h4>Company</h4>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQ</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <h4>Get in touch</h4>
+      <a href="mailto:garrysandhu@outlook.com">garrysandhu@outlook.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>© 2026 Hindu Name Generator. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
