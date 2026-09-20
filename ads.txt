@@ -1,0 +1,4 @@
+# AdSense verification file
+# Replace pub-0000000000000000 below with your actual Google AdSense publisher ID.
+# Find your publisher ID in AdSense under Account > Account information.
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
